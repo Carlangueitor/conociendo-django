@@ -1,0 +1,38 @@
+body {
+    background: #0d82df;
+    font-family: 'Ubuntu';
+}
+
+#header{
+    clear: both;
+    float: none;
+}
+#header h1{
+    color: #FFF;
+    font-size: 4em;
+}
+#header ul li{
+    list-style: none;
+    float: left;
+}
+#header ul li a{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.5em;
+}
+#container{
+    float: none;
+    clear: both;
+    padding-top: 20px;
+} 
+.tweet{
+    background: #edeceb;
+    padding: 20px;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+form {
+    color: #fff;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ChiquiTwitter - {% block title %}{% endblock %}</title>
+    <link media="all" rel="stylesheet" href="{{ STATIC_URL}}estilos.css" type="text/css" />
+</head>
+<body>
+    <div id="header">
+        <h1>ChiquiTwitter</h1>
+        <ul>
+            <li><a href="/">Inicio</a></li>
+            <li><a href="/registro/">Registro</a></li>
+            <li><a href="/twittear/">Twittear</a></li>
+        </ul>
+    </div>
+    <div id="container">
+        {% block contenido %}{% endblock%}
+    </div>
+</body>
+</html>

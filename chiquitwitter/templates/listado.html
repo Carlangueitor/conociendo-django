@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}Todos los Tweets{% endblock %}
+
+{% block contenido %}
+    {% for tweet in tweets %}
+        <div class="tweet">
+            <p>
+            <strong>@{{ tweet.usuario.username }}:</strong>
+                {{ tweet.texto }}
+            </p>
+        </div>
+    {% endfor%}
+{% endblock%}
